@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sajorahasan.tiffincounter.MainActivity">
+
+    <item
+        android:id="@+id/action_price"
+        android:orderInCategory="100"
+        android:title="@string/set_tiffin_price"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_log"
+        android:orderInCategory="100"
+        android:title="@string/log"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_reset"
+        android:orderInCategory="100"
+        android:title="@string/reset"
+        app:showAsAction="never" />
+</menu>

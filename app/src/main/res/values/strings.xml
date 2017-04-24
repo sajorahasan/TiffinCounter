@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tiffin Counter</string>
+    <string name="action_settings">Settings</string>
+    <string name="total_tiffin">Total Tiffin</string>
+    <string name="set_tiffin_price">Set Tiffin Price</string>
+    <string name="reset">Reset</string>
+    <string name="log">Log</string>
+</resources>
