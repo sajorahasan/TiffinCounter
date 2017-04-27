@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sajorahasan.tiffincounter.MainActivity">
+    tools:context="com.sajorahasan.tiffincounter.activity.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -104,8 +104,8 @@
 
             </LinearLayout>
 
-            <ListView
-                android:id="@+id/lvLogs"
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewLogs"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="120dp"
